@@ -9,11 +9,24 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Introduction
+## Introduction of project
 The goal of this exercise is to create a product to highlight the prediction algorithm that you have built and to provide an interface that can be accessed by others. For this project you must submit:
 
 A Shiny app that takes as input a phrase (multiple words) in a text box input and outputs a prediction of the next word.
 A slide deck consisting of no more than 5 slides created with R Studio Presenter (https://support.rstudio.com/hc/en-us/articles/200486468-Authoring-R-Presentations) pitching your algorithm and app as if you were presenting to your boss or an investor.
+
+## ShinyApp project
+1. Create a data product to show off your prediction algorithm You should create a Shiny app that accepts an n-gram and predicts the next word using previous ones. It is like that used in the Smartphone keyboard App by SWIFTKEY.
+2. Previous tasks focused on exploration of data. You should get to know the data and understand the problem. Manipulate data (cleaning and modeling). Create prediction model and execute data and information into ShinyApp. 
+3.Document the use of your data product so that others can rapidly deploy your algorithm
+4.Consider the size of the predictive model you have developed. You may have to sacrifice some accuracy to have a fast enough/small enough model to load into Shiny
+
+## Slide Deck
+1. The Shiny Application enable end users to predict three possible words of a sentence.
+2. The predicted words has been retrieved from the N-Gram tables by comparing it with tokenized frequency of 2,3,and 4 Grams. It will show predicted words. 
+3. An user entered the text/phrase in a input box. Another box will show the written phrase/word
+4. "Submit" button allows users to observe the predicted words in a control way after entering the phrase/words. 
+
 
 ## Download and load dataset into R
 * The data was loaded from Coursera Link (https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip)  to local PC
