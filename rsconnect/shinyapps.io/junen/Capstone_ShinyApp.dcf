@@ -1,0 +1,12 @@
+name: Capstone_ShinyApp
+title: Capstone_ShinyApp
+username:
+account: junen
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3483470
+bundleId: 4110643
+url: https://junen.shinyapps.io/Capstone_ShinyApp/
+when: 1610945888.50757
+asMultiple: FALSE
+asStatic: FALSE
